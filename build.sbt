@@ -3,6 +3,7 @@ organization := "dev.zio"
 name         := "zio-quickstart-restful-webservice"
 
 libraryDependencies ++= Seq(
+  "com.github.jwt-scala" %% "jwt-core" % "9.0.6",
   "dev.zio"       %% "zio"            % "2.0.0-RC6",
   "dev.zio"       %% "zio-json"       % "0.3.0-RC8",
   "io.d11"        %% "zhttp"          % "2.0.0-RC9",
